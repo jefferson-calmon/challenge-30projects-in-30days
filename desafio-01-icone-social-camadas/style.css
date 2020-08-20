@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    width: 35vw;
+    justify-content: space-between;
+}
+
+.content{
+    position: relative;
+    height: 100%;
+}
+
+.box{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-35deg) skew(20deg);
+    transition: 0.5s;
+}
+
+.boxIcon{
+    transition: 0.5s;
+}
+
+.content:hover .box:nth-child(5){
+    transform:  translateY(-40px)   rotate(-35deg) skew(20deg) ;
+    opacity: 1;
+}
+.content:hover .box:nth-child(4){
+    transform:   translateY(-30px)  rotate(-35deg) skew(20deg) ;
+    opacity: .8;
+}
+.content:hover .box:nth-child(3){
+    transform:   translateY(-20px)  rotate(-35deg) skew(20deg) ;
+    opacity: .6;
+}
+.content:hover .box:nth-child(2){
+    transform:   translateY(-10px)  rotate(-35deg) skew(20deg) ;
+    opacity: .4;
+}
+.content:hover .box:nth-child(1){
+    transform:   translateY(0px)  rotate(-35deg) skew(20deg) ;
+    opacity: .2;
+}
+
+i{
+    font-size: 27px;
+    color: #fff;
+}
+
+.facebook .box{
+    background: #3b5999;
+}
+.linkedin .box{
+    background: #0077b5;
+}
+.twitter .box{
+    background: #36b9ff;
+}
+.instagram .box{
+    background: linear-gradient(45deg, #f05b47, #a52f6c, #5c4498);
+}
+.google-plus .box{
+    background: #dc483c;
+}
