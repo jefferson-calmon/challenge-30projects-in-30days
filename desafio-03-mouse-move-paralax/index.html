@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Effect Mousemove Paralax</title>
+</head>
+<body>
+    <section>
+        <h2 class="layer">Parallax</h2>
+        <div class="textBox">
+            <h2 class="layer">Parallax</h2>
+        </div>
+    </section>
+    <section style="height: 100vh;">
+
+    </section>
+    <script>
+        document.addEventListener('mousemove', parallax);
+
+        function parallax(e){
+            this.querySelectorAll('.layer').forEach(Layer => {
+                let x = (window.innerWidth - e.pageX * 10) / 100;
+
+                let y = (window.innerHeight - e.pageY * 10) / 100;
+
+                Layer.style.transform = `translate(${x}px, ${y}px)`
+            });
+        }
+    </script>
+</body>
+</html>
