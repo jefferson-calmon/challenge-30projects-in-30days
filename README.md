@@ -26,7 +26,7 @@
 [Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-01-icone-social-camadas)
 
 
-
+---
 
 <a id="02"></a>
 
@@ -38,7 +38,7 @@
 [Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-02-loading-animated)
 
 
-
+---
 
 <a id="03"></a>
 
@@ -48,3 +48,5 @@
 
 
 [Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-03-mouse-move-paralax)
+
+---
