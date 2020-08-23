@@ -12,6 +12,7 @@
 - <a href="#01">Desafio 01 - Camadas em ícones de redes social</a>
 - <a href="#02">Desafio 02 - Loader animado</a>
 - <a href="#03">Desafio 03 - Mouse Move Paralax</a>
+- <a href="#04">Desafio 04 - Neon Button</a>
 
 
 ## Desafios 
@@ -53,7 +54,7 @@
 
 <a id="04"></a>
 
-### Desafio 04 - Botão animado
+### Desafio 04 - Neon Button
 
 <img src=".github/04.gif">
 
