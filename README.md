@@ -20,7 +20,7 @@
 
 ### Desafio 01 - Camadas em ícones de redes social
 
-<img src=".github/01.png">
+<img src=".github/01.gif">
 
 
 [Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-01-icone-social-camadas)
