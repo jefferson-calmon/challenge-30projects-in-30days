@@ -32,7 +32,7 @@
 
 ### Desafio 02 - Loader animado
 
-<img src=".github/02.png">
+<img src=".github/02.gif">
 
 
 [Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-02-loading-animated)
