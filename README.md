@@ -44,7 +44,7 @@
 
 ### Desafio 03 - Mouse Move Paralax
 
-<img src=".github/03.png">
+<img src=".github/03.gif">
 
 
 [Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-03-mouse-move-paralax)
