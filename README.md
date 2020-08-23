@@ -55,7 +55,7 @@
 
 ### Desafio 04 - Botão animado
 
-<img src=".github/03.gif">
+<img src=".github/04.gif">
 
 
 [Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-04-button-animated)
