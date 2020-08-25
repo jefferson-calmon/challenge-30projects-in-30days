@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(15, 14, 14);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 7vw);
+  transform: rotate(45deg)  scale(0.9);
+  place-items: center;
+  place-content: center;
+  /* animation: animate 15s ease-in infinite; */
+}
+
+@keyframes animate{
+  0% {
+    transform: rotate(0);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.square{
+  /* border: 0.5px solid #000; */
+  width: 7vw;
+  height: 7vw;
+  background: red;
+}
+
+.square.one{
+  animation: one 1.5s ease-in-out infinite;
+  background: rgb(255, 255, 121);
+}
+
+.square.two{
+  animation: two 1.5s ease-in-out infinite;
+  background: rgb(120, 120, 255);
+}
+
+.square.three{
+  animation: three 1.5s ease-in-out infinite;
+  background: rgb(255, 121, 121);
+}
+
+.square.four{
+  animation: four 1.5s ease-in-out infinite;
+  background: rgb(121, 255, 121);
+}
+
+@keyframes one{
+  0%{
+    transform:  translateY(0)  translateX(0) rotate(0deg);
+  }
+  50%{
+    
+    transform: translateY(-25px) translateX(-25px) rotate(90deg) scale(1.15) ;
+  }
+  100%{
+    
+    transform: translateY(0)  translateX(0) rotate(180deg);
+  }
+}
+
+@keyframes two{
+  0%{
+    transform:  translateY(0)  translateX(0) rotate(0deg);
+  }
+  50%{
+    
+    transform: translateY(-25px) translateX(25px) rotate(90deg) scale(1.15) ;
+  }
+  100%{
+    
+    transform: translateY(0)  translateX(0) rotate(180deg);
+  }
+}
+
+@keyframes three{
+  0%{
+    transform:  translateY(0)  translateX(0) rotate(0deg);
+  }
+  50%{
+    
+    transform: translateY(25px) translateX(-25px) rotate(90deg) scale(1.15) ;
+  }
+  100%{
+    
+    transform:  translateY(0)  translateX(0) rotate(180deg);
+  }
+}
+
+@keyframes four{
+  0%{
+    transform:  translateY(0)  translateX(0) rotate(0deg);
+  }
+  50%{
+    
+    transform: translateY(25px) translateX(25px) rotate(90deg) scale(1.15) ;
+  }
+  100%{
+    
+    transform: translateY(0)  translateX(0) rotate(180deg);
+  }
+}

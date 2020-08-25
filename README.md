@@ -14,6 +14,7 @@
 - <a href="#03">Desafio 03 - Mouse Move Paralax</a>
 - <a href="#04">Desafio 04 - Neon Button</a>
 - <a href="#05">Desafio 05 - Animação com caixa de texto creativa</a>
+- <a href="#06">Desafio 06 - Loading com blocos coloridos animados</a>
 
 
 ## Desafios 
@@ -72,5 +73,16 @@
 
 
 **[Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-05-creative-box-animation)**
+
+---
+
+<a id="06"></a>
+
+### Desafio 06 - Loading com blocos coloridos animados
+
+<img src=".github/06.gif">
+
+
+**[Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-06-loading-with-squares-animated)**
 
 ---
