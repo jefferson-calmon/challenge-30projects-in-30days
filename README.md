@@ -15,6 +15,7 @@
 - <a href="#04">Desafio 04 - Neon Button</a>
 - <a href="#05">Desafio 05 - Animação com caixa de texto creativa</a>
 - <a href="#06">Desafio 06 - Loading com blocos coloridos animados</a>
+- <a href="#07">Desafio 07 - Sombra de caixa com grandient multicolor animado</a>
 
 
 ## Desafios 
@@ -84,5 +85,16 @@
 
 
 **[Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-06-loading-with-squares-animated)**
+
+---
+
+<a id="07"></a>
+
+### Desafio 07 - Sombra de caixa com grandient multicolor animado
+
+<img src=".github/07.gif">
+
+
+**[Código](https://github.com/jefferson-calmon/challenge-30projects-in-30days/tree/master/desafio-07-box-shadow-grandient-multicolor)**
 
 ---
